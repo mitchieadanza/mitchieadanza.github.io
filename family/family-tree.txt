@@ -1,0 +1,94 @@
+// Lola't Lolo tyaka mga kapatid ng tatay ni nanay
+~ San Agustin, Natividad. Villacorta () []
+++ Acosta Sr, Manuel. () []
+= Acosta, Victoria. San Agustin () [2018-02-19]
+= Acosta Jr, Manuel "Boy". San Agustin (1948-07-06) [1979-06-07]
+= Acosta Sr, Benjamin "Ben". San Agustin () []
+= Acosta, Amelia. San Agustin ()
+...
+
+// Nanay, tatay tyaka mga kapatid ni nanay
+~ Maramba, Catalina. Dumantay (1946-01-28) [1974-08-10]
+++ Acosta Jr, Manuel "Boy". San Agustin () []
+= Acosta III, Manuel "Manolo". Maramba (11-07)
+= Acosta, Susan. Maramba ()
+= Acosta, Corazon "Babycor/Cora". Maramba (1971-03-10)
+
+// Nanay, tatay tyaka mga kapatid ni tatay. NOT SURE SA REAL NAME NI TITO DADA TYAKA KAY TITO TONY
+~ Saplala, Lydia. (11-24)
+++ Argabioso, Marcial. (10-09)
+= Argabioso, Antonio "Tony". Saplala ()
+= Argabioso, Rolando "Olan/Roland". Saplala (1966-10-09)
+= Argabioso, Danilo "Dada". Saplala ()
+
+// Nanay, tatay tyaka mga kapatid ng tatay nila Ira't Caleb
+~ Calilong, Teresita. Go ()
+++ Ignacio, Lorenzo. Ventura () []
+= Ignacio, Larry Calilong (1971-05-10)
+...
+
+// Anak ni tito Ben, sila tito Dak at Tito Jun
+~ Aida. (1950-07-10)
+++ Acosta Sr, Benjamin "Ben". San Agustin () []
+= Acosta Sr, Darwin "Dak". ()
+= Acosta Jr, Benjamin "Jun". ()
+
+// Start na ng generation namin
+// Mga pinsan ko kay tita Susan
+~ Acosta, Susan. Maramba
+++ Hanopol, Neri. ()
+= Hanopol, Franz Nersus. Acosta ()
+
+~ Acosta, Susan. Maramba
+++ Hiraishi, ()
+= Hiraishi, Mitsue. Acosta ()
+...
+
+// Ako tyaka mga kapatid ko
+~ Acosta, Corazon "Babycor/Cora". Maramba
+++ Argabioso, Rolando "Olan/Roland". Saplala
+= Acosta, Arbyn. (1995-04-19) // ME!
+
+~ Martin, Nierene "Yen". ()
+++ Argabioso, Rolando "Olan/Roland". Saplala
+= Argabioso, Rain Nikole. Martin (2003-11-07)
+
+~ Acosta, Corazon "Babycor/Cora". Maramba
+++ Ignacio, Larry Calilong
+= Ignacio, Ira Mae. Acosta (2004-08-05)
+= Ignacio, Joshua Caleb. Acosta (2008-08-01)
+
+// Mga pinsan ko kay tito Tony. NOT SURE SA APILIDO NI TITA DULCE
+~ Cruz, Dulce. Amor ()
+++ Argabioso, Tony. Saplala
+= Argabioso, Mark. Cruz ()
+= Argabioso, Lotus. Cruz ()
+= Argabioso, Michael. Cruz ()
+
+// Mga pinsan ko kay tito Dada. NOT SURE SA MGA PANGALAN NG PINSAN KO
+~ ()
+++ Argabioso, Danilo "Dada". Saplala
+= Argabioso, Danielle. ()
+= Argabioso, Danae. ()
+
+// Mga pinsan ko kay tito Jun
+~ Diamse, Del. () [04-20]
+++ Acosta Jr, Benjamin "Jun".
+!= Acosta, Jheng-Jheng. Diamse ()
+= Acosta III, Benjamin "JR/Jay-R". Diamse ()
+= Acosta, Judel. Diamse ()
+
+// Mga pinsan ko kay tito Dak
+~ Costuya, Joan. ()
+++ Acosta Sr, Darwin "Dak".
+= Acosta, Kristine "Tin-tin". Costuya ()
+= Acosta, Rowena "Wewe". Costuya ()
+= Acosta, Kim. Costuya ()
+= Acosta Jr, Darwin "Awing". Costuya ()
+
+// Mga anak ni Kuya Franz
+~ , Kaye. ()
+++ Hanopol, Franz Nersus. Acosta
+= Hanopol, Francis Karl (2007-11-25)
+= Hanopol, Lance ()
+= Hanopol,

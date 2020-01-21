@@ -1,0 +1,228 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, div, dl, dt, dd,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, input, textarea,
+p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    line-height: 1.5;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #fff;
+
+    -webkit-font-smoothing: antialiased;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* required LIB STYLES */
+/* .Treant se automatski dodaje na svaki chart conatiner */
+.Treant {
+    position: relative;
+    padding: 0 !important;
+}
+
+.Treant > .node,
+.Treant > .pseudo {
+    position: absolute;
+    display: block;
+    visibility: hidden;
+}
+
+.Treant.Treant-loaded .node,
+.Treant.Treant-loaded .pseudo {
+    visibility: visible;
+}
+
+.Treant > .pseudo {
+    width: 0;
+    height: 0;
+    border: none;
+    padding: 0;
+}
+
+.Treant .collapse-switch {
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.Treant .collapsed .collapse-switch {
+    background-color: transparent;
+}
+
+.Treant > .node img {
+    border: none;
+    float: left;
+}
+
+/* optional Container STYLES */
+.chart {
+    margin: 0 auto;
+    border: 0;
+}
+
+.node {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    font-size: 13.8px;
+    height: 109px;
+    min-width: 60px;
+    overflow: hidden;
+    padding: 16px;
+    letter-spacing: -0.35px;
+    width: auto;
+}
+
+.node img {
+    border-radius: 7px 0 0 7px;
+    margin: -16px 16px -16px -16px;
+    height: 109px;
+    width: 109px;
+}
+
+.node p {
+    color: #444;
+}
+
+.node-has-image p {
+    margin-left: 109px;
+}
+
+.node:hover .node-name {
+    color: #666;
+    text-shadow: 1px 1px rgba(0, 0, 0, .15);
+}
+
+.node .node-fullname {
+    color: #333;
+    font-size: 16.8px;
+    font-family: 'ProductSans', sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.node .node-school {
+    font-style: italic;
+}
+
+.node > p span {
+    margin-right: 4px;
+}
+
+.node > p.node-occupation span {
+    display: block;
+    margin-right: 0;
+}
+
+.node > p  span:last-child {
+    margin-right: 0;
+}
+
+.node > p > span.lastname:after,
+.node > p > span.suffix:before,
+.node > p > span.suffix > span:after {
+/*.node > .node-occupation > span:after {*/
+    content: ",";
+}
+
+.node > p > span.suffix > span:last-child:after {
+/*.node > .node-occupation > span:last-child:after {*/
+    content: "";
+}
+
+.node > p > span.suffix:before {
+    margin-left: -4px;
+    margin-right: 4px;
+}
+
+.node > p > span.hierarchy {
+    display: none;
+}
+
+.node.focus-node {
+    background: #111;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.node.focus-node .node-fullname {
+    color: #fff;
+}
+
+.node.focus-node,
+.node.focus-node p,
+.node.focus-node:hover .node-name {
+    color: #ccc;
+}
+
+.node.has-occupation .node-education,
+.node.has-occupation .node-school,
+.node.has-middleinitial .middlename {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+@media print {
+    html {
+        padding: 40px;
+    }
+
+    body {
+        background: #fff;
+        color: #333;
+    }
+
+    .node,
+    .node.focus-node {
+        border: 0;
+        background: #ededed;
+    }
+
+    .node p,
+    .node.focus-node,
+    .node.focus-node p,
+    .node.focus-node:hover .node-name {
+        color: #444;
+    }
+
+    .node-fullname,
+    .node.focus-node .node-fullname {
+        color: #333;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        overflow: hidden;
+    }
+}
