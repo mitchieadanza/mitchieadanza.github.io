@@ -296,7 +296,7 @@ var mylen = {
                     image: "img/female_avatar.png",
                     text: {
                         fullname: {
-                            lastname: "Crispollon",
+                            lastname: "Crispolon",
                             firstname: "Ursula"
                         },
                         lifespan: "Deceased"
