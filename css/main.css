@@ -19,6 +19,10 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Google Sans';
+}
+
 div:not(.page-1) > .cv-header, h1, h2, h3, h4, .timespan {
     font-weight: 700;
 }
@@ -137,7 +141,9 @@ p a {
     font-weight: 700;
     font-size: 2.5em; /* 12pt / 11pt (body) */
     /*letter-spacing: 0.5px;*/
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-family: 'Google Sans';
+    letter-spacing: -0.5px;
 }
 
 .cv-header address,
@@ -193,7 +199,7 @@ br {
 }
 
 .cv-body section h2 {
-    color: #0073AE;
+    color: #0087f3;
     font-size: 0.90909091em; /* 10pt / 11pt (body) */
     font-weight: 700;
     margin-bottom: 1em;
@@ -203,7 +209,7 @@ br {
 }
 
 .cv-body section h2:before {
-    background-color: #0073AE;
+    background-color: #0087f3;
     content: "";
     display: block;
     height: 1px;
