@@ -268,14 +268,19 @@ br {
     font-weight: 400;
 }
 
-.cv-body section.skills > div h3 {
+.cv-body section.list-section > div h3 {
     float: left;
     font-size: 1em; /* use default h3 font-size */
     margin-right: 0.2em;
 }
 
-.cv-body section.skills > div h3:after {
+.cv-body section.list-section > div h3:after {
     content: ":";
+}
+
+.cv-body section.list-section > div,
+.cv-body section.list-section > div > div {
+    margin-bottom: 0.5em;
 }
 
 span.print-only {
@@ -482,4 +487,8 @@ span.print-only {
 
 .left {
     float: left;
+}
+
+.personal-info div > p {
+    margin-left: 10em;
 }
