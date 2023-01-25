@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#tree-wrapper,
+#tree,
+#tree > canvas {
+  width: 100%;
+  height: 100%
+}
+
+#tree {
+  background-color: #f3f4f5;
+}
+
+.dark #tree {
+  background-color: #202124;
+}
+
+#tree-wrapper:focus,
+#tree:focus,
+#tree > canvas:focus {
+  border: 0;
+  outline: 0;
+}
+
+#tree > div {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+body > footer {
+  background-color: transparent;
+  color: #202124;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.65rem;
+  position: fixed;
+  bottom: 0;
+  padding: 0.1rem 0.4rem;
+  right: 0;
+  z-index: 99999;
+}
+
+body.dark > footer {
+  color: #bdc1c6;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
